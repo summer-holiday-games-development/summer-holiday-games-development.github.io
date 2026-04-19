@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "MouldyCheese";
+    src: url('./MouldyCheeseRegular-WyMWG.ttf');
+}
+
+body {
+    background-image: url('./images/darksand.jpg');
+    background-size: cover;   
+    text-align: center;
+    color:white;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: "MouldyCheese";
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+}
+h2 {
+    font-weight: normal;
+}
+
+.game {
+    width: 20vw;
+    border: 4px solid darkgray;
+
+}
+.game:hover {
+    border: 8px solid coral;
+}
+
+
+.gameImg {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-family: "MouldyCheese";
+    letter-spacing: 0.2rem;
+}
+
+a:link {
+    color:white;
+}
+a:visited {
+    color: blanchedalmond;
+}
+
+button {
+    font-size: xx-large;
+    font-family: "MouldyCheese";
+    background-color: hsl(35, 40%, 90%);
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 5%;
+}
+button:hover {
+    background-color: hsl(35, 40%, 80%);
+    cursor: pointer;
+}

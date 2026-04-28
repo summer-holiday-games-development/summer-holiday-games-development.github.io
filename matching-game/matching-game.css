@@ -276,3 +276,45 @@ a:link {
 a:visited {
     color: black;
 }
+
+
+/* how to play box*/
+
+#howtoplay {
+    position: absolute;
+    height: 80vh;
+    width: 80vw;
+    background-color: hsl(35, 40%, 90%);
+    top: 7rem;
+    justify-self: center;
+    border-radius: 1%;
+    font-family: "MouldyCheese";
+    font-size: x-large;
+    display: grid;
+}
+
+.example {
+    height:3rem;
+    justify-self: center;
+}
+
+.closehowtoplaybutton {
+    background-color: hsl(35, 40%, 75%);
+    border-radius: 10px;
+}
+.closehowtoplaybutton:hover {
+    background-color: hsl(35, 40%, 65%);
+}
+
+#closehowtoplay1 {
+    height: 3rem;
+    width: 3rem;
+    justify-self: right;
+}
+
+#closehowtoplay2 {
+    height: 3rem;
+    width: 20rem;
+    justify-self: center;
+}
+

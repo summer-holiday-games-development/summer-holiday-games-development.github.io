@@ -219,5 +219,12 @@ playagain.onclick = function() {
     startGame();
 }
 
+closehowtoplay1.onclick = function() {
+    document.getElementById('howtoplay').style.display = "none";
+}
+closehowtoplay2.onclick = function() {
+    document.getElementById('howtoplay').style.display = "none";
+}
+
 changeSize();
 startGame();

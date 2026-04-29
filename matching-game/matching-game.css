@@ -282,7 +282,7 @@ a:visited {
 
 #howtoplay {
     position: absolute;
-    height: 80vh;
+    height: 70vh;
     width: 80vw;
     background-color: hsl(35, 40%, 90%);
     border: 7px ridge hsl(35, 40%, 45%);

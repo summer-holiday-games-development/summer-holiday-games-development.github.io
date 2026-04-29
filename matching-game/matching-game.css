@@ -285,7 +285,7 @@ a:visited {
     height: 80vh;
     width: 80vw;
     background-color: hsl(35, 40%, 90%);
-    border: 7px ridge hsl(35, 40%, 30%);
+    border: 7px ridge hsl(35, 40%, 45%);
     top: 7rem;
     justify-self: center;
     border-radius: 1%;

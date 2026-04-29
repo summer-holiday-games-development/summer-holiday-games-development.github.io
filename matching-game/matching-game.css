@@ -285,12 +285,14 @@ a:visited {
     height: 80vh;
     width: 80vw;
     background-color: hsl(35, 40%, 90%);
+    border: 3px solid hsl(35, 40%, 30%);
     top: 7rem;
     justify-self: center;
     border-radius: 1%;
     font-family: "MouldyCheese";
     font-size: x-large;
     display: grid;
+    padding: 2rem;
 }
 
 .example {
@@ -301,6 +303,7 @@ a:visited {
 .closehowtoplaybutton {
     background-color: hsl(35, 40%, 75%);
     border-radius: 10px;
+    font-family: "MouldyCheese";
 }
 .closehowtoplaybutton:hover {
     background-color: hsl(35, 40%, 65%);

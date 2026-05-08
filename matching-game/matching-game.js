@@ -42,12 +42,12 @@ function checkIfCardsMatch() {
 
 function openCard(num) {
     if (openCard1 == null) {   
-        document.getElementById(`card${num}`).src = `./cards/card${cardsArray[num]}.jpg`; 
+        document.getElementById(`card${num}`).src = `./matching-game/cards/card${cardsArray[num]}.jpg`; 
         openCard1 = num;
         movesCounter ++;
         document.getElementById('movesCounter').innerHTML = `moves: ${movesCounter}`;
     } else {
-        document.getElementById(`card${num}`).src = `./cards/card${cardsArray[num]}.jpg`;
+        document.getElementById(`card${num}`).src = `./matching-game/cards/card${cardsArray[num]}.jpg`;
         openCard2 = num;
     }
 };
@@ -57,12 +57,12 @@ function closeCards() {
         document.getElementById(`card${openCard1}`).style.visibility = 'hidden';
         document.getElementById(`card${openCard2}`).style.visibility = 'hidden';
         document.getElementById(`foundcard${foundCardCounter}`).style.visibility = 'visible';
-        document.getElementById(`foundcard${foundCardCounter}`).src = `./cards/card${cardsArray[openCard1]}.jpg`;
+        document.getElementById(`foundcard${foundCardCounter}`).src = `./matching-game/cards/card${cardsArray[openCard1]}.jpg`;
         foundCardCounter--;
         foundPair = false;
     } else {
-        document.getElementById(`card${openCard1}`).src = `card.jpg`;
-        document.getElementById(`card${openCard2}`).src = `card.jpg`;
+        document.getElementById(`card${openCard1}`).src = `./matching-game/card.jpg`;
+        document.getElementById(`card${openCard2}`).src = `./matching-game/card.jpg`;
     }
     openCard1 = null;
     openCard2 = null;
@@ -179,7 +179,7 @@ function startGame() {
 
     for (i=0; i<gameSize*2; i++) {
         document.getElementById(`card${i}`).style.visibility = 'visible';
-        document.getElementById(`card${i}`).src = `card.jpg`;
+        document.getElementById(`card${i}`).src = `./matching-game/card.jpg`;
     }
 
     for (i=0; i<gameSize; i++) {

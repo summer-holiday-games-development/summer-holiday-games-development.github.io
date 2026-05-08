@@ -63,3 +63,21 @@ button:hover {
     background-color: hsl(35, 40%, 80%);
     cursor: pointer;
 }
+
+@media all and (orientation: portrait) {
+
+    body {
+        height: 100vh;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .game {
+        width: 40vw;
+        margin: 4vw;
+    }
+}

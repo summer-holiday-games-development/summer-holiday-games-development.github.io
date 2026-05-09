@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /newgame.html
+
+Sitemap: https://summer-holiday-games.net/sitemap.xml
+

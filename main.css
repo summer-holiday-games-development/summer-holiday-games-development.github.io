@@ -76,8 +76,19 @@ button:hover {
         grid-template-rows: 1fr 1fr;
     }
 
+    footer {
+        margin-top: 3rem;
+    }
+
     .game {
         width: 40vw;
         margin: 4vw;
+    }
+}
+
+@media all and (orientation:landscape) {
+    footer {
+        position:absolute;
+        bottom:0;
     }
 }

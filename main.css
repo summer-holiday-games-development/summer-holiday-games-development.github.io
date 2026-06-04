@@ -4,7 +4,6 @@
 }
 
 body {
-    background-image: url('./images/darksand.jpg');
     background-size: cover;   
     text-align: center;
     color:white;
@@ -67,7 +66,7 @@ button:hover {
 @media all and (orientation: portrait) {
 
     body {
-        height: 100vh;
+        background-image: url('./images/darksand-portrait.webp');
     }
 
     main {
@@ -87,6 +86,11 @@ button:hover {
 }
 
 @media all and (orientation:landscape) {
+
+    body {
+        background-image: url('./images/darksand.webp');
+    }
+    
     footer {
         position:absolute;
         bottom:0;

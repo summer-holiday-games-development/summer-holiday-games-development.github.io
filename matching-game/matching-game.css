@@ -304,7 +304,7 @@ a:visited {
     font-family: "MouldyCheese";
     font-size: x-large;
     line-height: 1.4;
-    display: grid;
+    display: none;
     padding: 2rem;
 }
 

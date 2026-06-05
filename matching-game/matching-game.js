@@ -219,6 +219,10 @@ playagain.onclick = function() {
     startGame();
 }
 
+howtoplaybutton.onclick = function() {
+    document.getElementById('howtoplay').style.display = "grid";
+}
+
 closehowtoplay1.onclick = function() {
     document.getElementById('howtoplay').style.display = "none";
 }

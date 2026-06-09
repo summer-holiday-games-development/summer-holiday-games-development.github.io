@@ -5,7 +5,6 @@
 
 body {
     width: 95vw;
-    background-image: url('../images/lightsand.webp');
     background-size: cover;   
     text-align: center;
     color:black;
@@ -15,6 +14,7 @@ body {
 @media all and (orientation: landscape) {
 
     body {
+        background-image: url('../images/lightsand.webp');
         grid-template-rows: 2rem 5rem 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         height: 95vh;
@@ -70,6 +70,7 @@ body {
 @media all and (orientation: portrait) {
 
     body {
+        background-image: url('../images/lightsand-portrait.webp');
         grid-template-rows: 2rem 5rem 1fr auto auto;
         grid-template-columns: 1fr;
     }

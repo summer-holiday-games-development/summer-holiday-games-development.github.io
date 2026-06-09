@@ -20,7 +20,7 @@ const cards = document.querySelectorAll('.card');
 const foundcards = document.querySelectorAll('.foundcard');
 
 cards.forEach(card => {
-    card.src = 'card.jpg';
+    card.src = './matching-game/card.webp';
 });
 
 for (let i = 0; i < 42; i++) {

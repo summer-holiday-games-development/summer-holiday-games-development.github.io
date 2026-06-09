@@ -192,7 +192,7 @@ h1 {
     margin-bottom: 0;
 }
 
-#newgamebutton {
+/*#newgamebutton {
     background-color: hsl(35, 40%, 90%);
     font-size: x-large;
     font-family: "MouldyCheese";
@@ -202,7 +202,7 @@ h1 {
 }
 #newgamebutton:hover {
     background-color: hsl(35, 40%, 80%);
-}
+}*/
 
 #howtoplaybutton {
     background-color: hsl(35, 40%, 90%);

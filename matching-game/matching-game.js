@@ -211,9 +211,9 @@ button21.onclick = function() {
     startGame(); 
 }
 
-newgamebutton.onclick = function() {
+/*newgamebutton.onclick = function() {
     startGame();
-}
+}*/
 
 playagain.onclick = function() {
     startGame();

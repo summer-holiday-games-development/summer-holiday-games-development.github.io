@@ -71,7 +71,7 @@ function playerWins() {
     
     if (isSolved) {
         document.getElementById('solved').innerHTML = `Congratulations! You solved the puzzle with ${moves} moves!`;
-        document.getElementById('finishedPicture').src=`./images/${imageChoice}.webp`
+        document.getElementById('finishedPicture').src=`sliding-puzzle/images/${imageChoice}.webp`
         document.getElementById('finishedPicture').style.display = 'flex';
         document.getElementById('newGame').innerHTML = 'Play again';
     }         
@@ -79,7 +79,7 @@ function playerWins() {
 
 function change(rowEmptySpot, colEmptySpot, rowChosenSpot, colChosenSpot) {
 
-    document.getElementById(items[rowEmptySpot][colEmptySpot].spot).style.backgroundImage = `url(./images/${rowLength}/${imageChoice}/${items[rowChosenSpot][colChosenSpot].card}.webp)`;
+    document.getElementById(items[rowEmptySpot][colEmptySpot].spot).style.backgroundImage = `url(sliding-puzzle/images/${rowLength}/${imageChoice}/${items[rowChosenSpot][colChosenSpot].card}.webp)`;
     document.getElementById(items[rowEmptySpot][colEmptySpot].spot).style.visibility = "visible";
     
     items[rowEmptySpot][colEmptySpot].card = items[rowChosenSpot][colChosenSpot].card;
@@ -117,7 +117,7 @@ function mixPieces() {
     let counter = 0;
     for (let i = 0; i < rowLength; i++) {
         for (let j = 0; j < rowLength; j++) {
-            document.getElementById(items[i][j].spot).style.backgroundImage = `url(./images/${rowLength}/${imageChoice}/${counter}.webp)`;
+            document.getElementById(items[i][j].spot).style.backgroundImage = `url(sliding-puzzle/images/${rowLength}/${imageChoice}/${counter}.webp)`;
             items[i][j].empty = false;
             items[i][j].card = [counter];
             document.getElementById(items[i][j].spot).style.visibility = "visible";

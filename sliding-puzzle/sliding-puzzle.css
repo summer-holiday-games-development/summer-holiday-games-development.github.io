@@ -2,13 +2,13 @@
 
 @font-face {
     font-family: "MouldyCheese";
-    src: url('../fonts/MouldyCheeseRegular-WyMWG.ttf');
+    src: url('MouldyCheeseRegular-WyMWG.ttf');
 }
 
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url('../images/verylightsand.jpg');
+    background-image: url('images/lightsand.webp');
     background-size: cover;   
     text-align: center;
     color:black;
@@ -189,18 +189,18 @@ main {
 }
 
 #ocean {
-    background-image: url('./images/ocean.jpg');
+    background-image: url('sliding-puzzle/images/ocean-small.webp');
     border: 5px solid red;
     background-size: cover;
 }
 
 #flower {
-    background-image: url('./images/flower.jpg');
+    background-image: url('sliding-puzzle/images/flower-small.webp');
     background-size: cover;
 }
 
 #dunes {
-    background-image: url('./images/dunes.jpg');
+    background-image: url('sliding-puzzle/images/dunes-small.webp');
     background-size: cover;
 }
 

@@ -189,7 +189,7 @@ main {
 }
 
 #ocean {
-    background-image: url('images/ocean-small.webp');
+    background-image: url('./images/ocean-small.webp');
     border: 5px solid red;
     background-size: cover;
 }
@@ -200,7 +200,7 @@ main {
 }
 
 #dunes {
-    background-image: url('sliding-puzzle/images/dunes-small.webp');
+    background-image: url('./images/dunes-small.webp');
     background-size: cover;
 }
 

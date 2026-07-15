@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>word guesser</title>
+        <link rel="stylesheet" href="wordguesser.css">
+    </head>
+    <body> 
+        <header>
+            <a href="../main.html">
+                <div id="homebox" class="headerboxes">               
+                    <img id="homebutton" src="../images/home.png">
+                    <p>Home</p>
+                </div>    
+            </a> 
+            <div id="howtoplaybox" class="headerboxes">               
+                <img id="howtoplaybutton" src="../images/help.png">
+                <p>How to play</p>
+            </div>           
+        </header>
+        <h1 id="title">Word Guesser</h1>
+        <div id="gameboard">
+            <div class="letter" id="row0letter0"><p id="letter0-0"></p></div>
+            <div class="letter" id="row0letter1"><p id="letter0-1"></p></div>
+            <div class="letter" id="row0letter2"><p id="letter0-2"></p></div>
+            <div class="letter" id="row0letter3"><p id="letter0-3"></p></div>
+            <div class="letter" id="row0letter4"><p id="letter0-4"></p></div>
+            <div class="letter" id="row0letter5"><p id="letter0-5"></p></div>
+            <div class="letter" id="row0letter6"><p id="letter0-6"></p></div>
+            <div class="letter" id="row0letter7"><p id="letter0-7"></p></div>
+            <div class="letter" id="row0letter8"><p id="letter0-8"></p></div>
+
+            <div class="letter" id="row1letter0"><p id="letter1-0"></p></div>
+            <div class="letter" id="row1letter1"><p id="letter1-1"></p></div>
+            <div class="letter" id="row1letter2"><p id="letter1-2"></p></div>
+            <div class="letter" id="row1letter3"><p id="letter1-3"></p></div>
+            <div class="letter" id="row1letter4"><p id="letter1-4"></p></div>
+            <div class="letter" id="row1letter5"><p id="letter1-5"></p></div>
+            <div class="letter" id="row1letter6"><p id="letter1-6"></p></div>
+            <div class="letter" id="row1letter7"><p id="letter1-7"></p></div>
+            <div class="letter" id="row1letter8"><p id="letter1-8"></p></div>
+
+            <div class="letter" id="row2letter0"><p id="letter2-0"></p></div>
+            <div class="letter" id="row2letter1"><p id="letter2-1"></p></div>
+            <div class="letter" id="row2letter2"><p id="letter2-2"></p></div>
+            <div class="letter" id="row2letter3"><p id="letter2-3"></p></div>
+            <div class="letter" id="row2letter4"><p id="letter2-4"></p></div>
+            <div class="letter" id="row2letter5"><p id="letter2-5"></p></div>
+            <div class="letter" id="row2letter6"><p id="letter2-6"></p></div>
+            <div class="letter" id="row2letter7"><p id="letter2-7"></p></div>
+            <div class="letter" id="row2letter8"><p id="letter2-8"></p></div>
+
+            <div class="letter" id="row3letter0"><p id="letter3-0"></p></div>
+            <div class="letter" id="row3letter1"><p id="letter3-1"></p></div>
+            <div class="letter" id="row3letter2"><p id="letter3-2"></p></div>
+            <div class="letter" id="row3letter3"><p id="letter3-3"></p></div>
+            <div class="letter" id="row3letter4"><p id="letter3-4"></p></div>
+            <div class="letter" id="row3letter5"><p id="letter3-5"></p></div>
+            <div class="letter" id="row3letter6"><p id="letter3-6"></p></div>
+            <div class="letter" id="row3letter7"><p id="letter3-7"></p></div>
+            <div class="letter" id="row3letter8"><p id="letter3-8"></p></div>
+
+            <div class="letter" id="row4letter0"><p id="letter4-0"></p></div>
+            <div class="letter" id="row4letter1"><p id="letter4-1"></p></div>
+            <div class="letter" id="row4letter2"><p id="letter4-2"></p></div>
+            <div class="letter" id="row4letter3"><p id="letter4-3"></p></div>
+            <div class="letter" id="row4letter4"><p id="letter4-4"></p></div>
+            <div class="letter" id="row4letter5"><p id="letter4-5"></p></div>
+            <div class="letter" id="row4letter6"><p id="letter4-6"></p></div>
+            <div class="letter" id="row4letter7"><p id="letter4-7"></p></div>
+            <div class="letter" id="row4letter8"><p id="letter4-8"></p></div>
+
+            <div class="letter" id="row5letter0"><p id="letter5-0"></p></div>
+            <div class="letter" id="row5letter1"><p id="letter5-1"></p></div>
+            <div class="letter" id="row5letter2"><p id="letter5-2"></p></div>
+            <div class="letter" id="row5letter3"><p id="letter5-3"></p></div>
+            <div class="letter" id="row5letter4"><p id="letter5-4"></p></div>
+            <div class="letter" id="row5letter5"><p id="letter5-5"></p></div>
+            <div class="letter" id="row5letter6"><p id="letter5-6"></p></div>
+            <div class="letter" id="row5letter7"><p id="letter5-7"></p></div>
+            <div class="letter" id="row5letter8"><p id="letter5-8"></p></div>         
+        </div>
+        <div id="howtoplay">
+            <button class="closehowtoplaybutton" id="closehowtoplay1">x</button>
+            <h2>How to play</h2>
+            <p>Start typing a word, then press enter.<br>
+            If you guessed a letter right, and it's in the right place, it will turn green.</p>
+            <p>In this example, the word starts with a 'b'. The letters 'l', 'u', and 'e' are not
+                in the word: </p>
+            <img class="example" src="example1.png">
+            <p>If a letter is in the word, but it's not in the right place, it will turn yellow.</p>
+            <p>This word has an 'a', but it's not the second letter: </p>
+            <img class="example" src="example2.png">
+            <p>Try to guess the word in 6 or less attempts.</p>
+            <button class="closehowtoplaybutton" id="closehowtoplay2">Start Game</button>
+        </div>
+        <div id="gameoverbox">
+            <p id="answer"></p>
+            <button id="newgamebutton">play again</button>
+            <a href="../main.html"><button id="moregamesbutton" >more games</button></a>
+        </div>
+        <script src="wordguesser.js"></script>   
+    </body>    
+</html>

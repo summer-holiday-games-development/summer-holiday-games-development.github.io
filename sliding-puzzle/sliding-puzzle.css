@@ -189,13 +189,13 @@ main {
 }
 
 #ocean {
-    background-image: url('./sliding-puzzle/images/ocean-small.webp');
+    background-image: url('images/ocean-small.webp');
     border: 5px solid red;
     background-size: cover;
 }
 
 #flower {
-    background-image: url('sliding-puzzle/images/flower-small.webp');
+    background-image: url('./images/flower-small.webp');
     background-size: cover;
 }
 

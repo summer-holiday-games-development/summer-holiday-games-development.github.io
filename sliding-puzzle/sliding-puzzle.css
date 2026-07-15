@@ -8,7 +8,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url('./images/lightsand.webp');
+    background-image: url('../images/lightsand.webp');
     background-size: cover;   
     text-align: center;
     color:black;
@@ -96,7 +96,7 @@ body {
 
 #homebutton {
     height: 3rem;  
-    margin-right: 5px; 
+    margin-right: 15px; 
 }
 
 #homebox {

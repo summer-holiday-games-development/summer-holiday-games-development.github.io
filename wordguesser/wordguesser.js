@@ -12,7 +12,7 @@ let gameWon = false;
 
 function changeBackground() {
     let img = Math.floor(Math.random() * 5);
-    let chosenImage = `./wordguesser/images/${img}.jpg`;
+    let chosenImage = `./wordguesser/images/${img}.webp`;
     document.body.style.backgroundImage = `url(${chosenImage})`;
 };
 

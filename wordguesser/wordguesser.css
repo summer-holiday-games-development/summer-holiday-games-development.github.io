@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "MouldyCheese";
+    src: url('../fonts/MouldyCheeseRegular-WyMWG.ttf');
+}
+
+body {
+    width: 100vw;   
+    text-align: center;
+    color:black;
+    display: grid;
+    grid-template-rows: 4rem 2rem 1fr;
+}
+
+
+/* nav */
+
+#homebutton {
+    height: 3rem;  
+    margin-right: 5px; 
+}
+#howtoplaybutton {
+    height: 3rem;  
+    margin-right: 5px; 
+}
+
+.headerboxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    font-size: larger;
+    float: right;
+    margin-right: 10px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10%;
+    background-color: hsla(0, 0%, 100%, 55%);
+    text-decoration: none;
+    font-family: "MouldyCheese";
+    letter-spacing: 0.2rem;
+}
+
+a:link {
+    color:black;
+}
+a:visited {
+    color: black;
+}
+
+#howtoplaybox:hover {
+    cursor: pointer;
+}
+/* title */
+
+h1 {
+    font-family: "MouldyCheese";
+    letter-spacing: 0.3rem;
+    margin-bottom: 0px;
+    background-color: hsla(0, 0%, 100%, 55%);
+    margin-top: 0;
+    padding: 4px;
+}
+
+main {   
+    background-color: hsla(0, 0%, 100%, 50%);
+    justify-self: center;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-rows: 20% 50% 1fr;
+    grid-template-columns: 20% 10% 20% 1fr;
+}
+
+/* game board */
+#gameboard {
+    margin-top: 1rem;
+    background-color: hsla(0, 0%, 100%, 50%);
+    justify-self: center;
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.letter {
+    border: 2px solid hsl(0, 0%, 40%);
+    display: grid;
+    font-size: 2rem;  /*3rem*/
+    margin: 0;
+    font-family: "MouldyCheese";
+    height: 5rem;   /*7rem*/
+    width:5rem;
+    text-align: center;
+}
+
+/* button area */
+
+button {
+    background-color: hsl(35, 40%, 90%);
+    font-size: x-large;
+    font-family: "MouldyCheese";
+    letter-spacing: 0.3rem;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+button:hover {
+    background-color: hsl(35, 40%, 80%);
+    cursor: pointer;
+}
+
+#answer {
+    font-size: xx-large;
+    font-family: "MouldyCheese";
+    letter-spacing: 0.3rem;
+    background-color: hsla(0, 0%, 100%, 70%);
+    padding: 5px;
+}
+
+
+/* how to play box*/
+
+#howtoplay {
+    position: absolute;
+    /*height: 80vh;*/
+    width: 80vw;
+    background-color: hsl(35, 40%, 90%);
+    top: 7rem;
+    justify-self: center;
+    border-radius: 1%;
+    font-family: "MouldyCheese";
+    font-size: x-large;
+    display: grid;
+    line-height: 1.4;
+}
+
+.example {
+    height:3rem;
+    justify-self: center;
+}
+
+.closehowtoplaybutton {
+    background-color: hsl(35, 40%, 75%);
+    border-radius: 10px;
+}
+.closehowtoplaybutton:hover {
+    background-color: hsl(35, 40%, 65%);
+}
+
+#closehowtoplay1 {
+    height: 3rem;
+    width: 3rem;
+    justify-self: right;
+}
+
+#closehowtoplay2 {
+    height: 3rem;
+    width: 20rem;
+    justify-self: center;
+}
+
+
+@media all and (orientation: landscape) {
+    body {
+        background-size: cover;
+    }
+}
+
+@media all and (orientation: portrait) {
+    body {
+        background-size: auto 100vh;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-height: 1000px) {
+    .letter {
+        font-size: 3rem;
+        height: 7rem;
+        width:7rem;
+    }
+}
+
+@media only screen and (min-height: 1500px) {
+    .letter {
+        font-size: 4rem;
+        height: 10rem; 
+        width:10rem;
+    }
+}
